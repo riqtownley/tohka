@@ -26,6 +26,7 @@
 - [💾 Sincronização Dinâmica com API](#-sincronização-dinâmica-com-api)
 - [📝 Estrutura de Logs Visuais no Console](#-estrutura-de-logs-visuais-no-console)
 - [👑 Níveis de Permissão](#-níveis-de-permissão)
+- [INFO - Resumo da atualização](#-resumo)
 
 ---
 
@@ -91,6 +92,7 @@ npm install
 📈 Guia de Conexão Móvel
 A Tohka Bot oferece flexibilidade total para sincronização inicial. Ao iniciar com num start, se nenhuma sessão anterior for encontrada na pasta auth_info, o sistema disponibilizará um menu interativo de escolha no terminal:
 
+Plaintext
 ====== TOHKA BOT - CONEXÃO ======
 [0] Conectar via QR CODE
 [1] Conectar via PAIRING CODE (Número de Telefone)
@@ -136,3 +138,6 @@ Usuários Premium/VIP (isVip): Liberação para execução de comandos restritos
 Administradores do Grupo (isSenderAdmin): Controlo total sobre ferramentas de moderação interna do grupo local (Mute, Antiflood, Ban, Filtros).
 
 Membros Gerais: Acesso exclusivo a comandos de entretenimento, utilitários e interações básicas autorizadas.
+
+Resumo da atualização: 1.2.1
+Nessa atualização, foi adicionado o sistema de AntiPV e foi arrumado o sistema de conexão.
