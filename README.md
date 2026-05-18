@@ -100,6 +100,8 @@ Opção [0] (QR Code): Gera um código QR miniaturizado diretamente no terminal 
 Opção [1] (Pairing Code): Permite inserir o número do Bot no formato internacional (ex: 5516999999999). O bot irá solicitar um código alfa-numérico de 8 dígitos à API do WhatsApp e exibirá no terminal para digitação manual no telemóvel, ideal para servidores VPS que não renderizam bem o QR Code.
 
 💾 Sincronização Dinâmica com API
+Para conseguir a sua chave, acesse https://bot.tohka.com.br e crie uma conta!
+
 O bot inicializa fazendo um handshake de autenticação e carregamento de configurações com o backend em ./database/src/api/auth.js e atualizações de grupos através do módulo GroupService.
 
 As chaves do ecossistema e credenciais mestre de validação de licenças residem em ./database/dono/dono.json. Certifique-se de que o arquivo esteja preenchido corretamente:
@@ -108,11 +110,12 @@ JSON
 {
   "key": "SUA_API_KEY_AQUI"
 }
+
 📝 Estrutura de Logs Visuais no Console
 As interações que passam pelo gateway de execução geram logs estilizados com delimitação de bordas hexadecimais (#7700ff), facilitando o monitoramento de atividade:
 
 Exemplo de Comando Recebido:
-Plaintext
+
 ╭────〔 👥 COMANDO EM GRUPO 〕────╮
 │ Comando: antiflood
 │ Usuário: Henrique (Townley)
@@ -121,6 +124,7 @@ Plaintext
 │ Hora: 14:32:10
 │ Dono: Sim
 ╰──────────────────────────────╯
+
 👑 Níveis de Permissão
 Para garantir a integridade dos comandos, o sistema segmenta as chamadas sob uma hierarquia estrita de controle:
 
