@@ -83,8 +83,8 @@ Certifique-se de possuir o Node.js v18 ou superior instalado. No terminal Linux,
 
 ```bash
 
-git clone [https://github.com/riqtownley/tohka.git](https://github.com/riqtownley/tohka.git)
-cd tohka-bot
+git clone https://github.com/riqtownley/tohka.git
+cd tohka
 
 # Instale os pacotes e dependências listadas no package.json
 npm install
