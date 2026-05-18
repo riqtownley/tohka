@@ -91,7 +91,6 @@ npm install
 📈 Guia de Conexão Móvel
 A Tohka Bot oferece flexibilidade total para sincronização inicial. Ao iniciar com num start, se nenhuma sessão anterior for encontrada na pasta auth_info, o sistema disponibilizará um menu interativo de escolha no terminal:
 
-Plaintext
 ====== TOHKA BOT - CONEXÃO ======
 [0] Conectar via QR CODE
 [1] Conectar via PAIRING CODE (Número de Telefone)
