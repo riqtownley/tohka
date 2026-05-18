@@ -1,6 +1,6 @@
 {
   "name": "tohka-bot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Uma bot da tohka T.I.",
   "main": "index.js",
   "type": "commonjs",
